@@ -3,7 +3,7 @@ import { useState } from "react";
 
 // Display Function
 function Display({ display }) {
-  return <>{display}</>;
+  return <div>{display}</div>;
 }
 
 // Key Function
@@ -35,20 +35,20 @@ function App() {
 
   // Name Click Handler
   const nameClickHandler = () => {
-    setDisp("NATHANIEL MANANSALA");
+    setDisp("Nathaniel Manansala");
   };
 
-  // Additional Questions Handlers
+  // QUESTIONS
   const whatILearnedHandler = () => {
-    setDisp("I HAVE LEARN LOL");
+    setDisp("I learned about system integrations and developing a React app.");
   };
 
   const whatIWantToLearnHandler = () => {
-    setDisp("I WILL LEARN LMAO");
+    setDisp("I want to learn to improve my coding skills being versatile in many languages.");
   };
 
   const howWillILearnHandler = () => {
-    setDisp("I WILL TRY BRUH");
+    setDisp("I will practice diligently with the skills I've acquired so far.");
   };
 
   return (
