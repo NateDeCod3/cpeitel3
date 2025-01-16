@@ -1,0 +1,71 @@
+* {
+  background-color: #1E1E1E;
+}
+
+/* Whole App Style */
+.App {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Header Style */
+.Header {
+  color: white;
+  font-size: 1.65rem;
+  margin: 1.5rem;
+}
+
+/* Main Styles */
+.Calc {
+  background-color: #C5C9D2;
+  border: 1rem solid #313751;
+  border-radius: 1.2rem;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 20px;
+  width: 500px;
+}
+
+/* Display Style */
+.Disp {
+  background-color: #74796B;
+  border-radius: .4rem;
+  box-shadow: 0px 0px 10px 0px rgb(0,0,0.1);
+  font-size: 2rem;
+  height: 50px;
+  margin-bottom: 1rem;
+  padding-right: 10px;
+  text-align: right;
+}
+
+/* Button Styles */
+.Buttons {
+  background-color: #C5C9D2;
+  display: grid;
+  font-size: 2rem;
+  gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.Buttons > button, .nameButton > button {
+  background-color: #505863;
+  border-radius: .4rem;
+  color: whitesmoke;
+  font-size: 2rem;
+  height: 50px;
+  width: 100%;
+}
+
+.Buttons > button:hover, .nameButton > button:hover {
+  background-color: #353a41;
+  color: whitesmoke;
+}
+
+.full-width {
+  grid-column: span 3;
+}
