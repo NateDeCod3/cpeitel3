@@ -35,7 +35,7 @@ function App() {
 
   // Name Click Handler
   const nameClickHandler = () => {
-    setDisp("Nathaniel Manansala");
+    setDisp("NATHANIEL MANANSALA");
   };
 
   // QUESTIONS
