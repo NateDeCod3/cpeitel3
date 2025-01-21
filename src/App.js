@@ -67,6 +67,9 @@ function App() {
 
         {/* Buttons */}
         <div className="Buttons">
+          <Key label={"What I learned?"} clickHandler={whatILearnedHandler} className="full-width" />
+          <Key label={"What I want to learn?"} clickHandler={whatIWantToLearnHandler} className="full-width" />
+          <Key label={"How will I learn?"} clickHandler={howWillILearnHandler} className="full-width" />
           <Key label={1} clickHandler={keyOne} />
           <Key label={2} clickHandler={keyTwo} />
           <Key label={3} clickHandler={keyThree} />
@@ -79,9 +82,6 @@ function App() {
           <Key label={0} clickHandler={keyZero} />
           <Key label={"RESET"} clickHandler={clrClickHandler} />
           <Key label={"NAME"} clickHandler={nameClickHandler} />
-          <Key label={"What I learned?"} clickHandler={whatILearnedHandler} className="full-width" />
-          <Key label={"What I want to learn?"} clickHandler={whatIWantToLearnHandler} className="full-width" />
-          <Key label={"How will I learn?"} clickHandler={howWillILearnHandler} className="full-width" />
         </div>
       </div>
     </div>
